@@ -9,3 +9,6 @@ sudo chmod 644 /usr/share/keyrings/deadsnakes-archive-keyring.gpg
 sudo rm /usr/share/keyrings/deadsnakes-archive-keyring.gpg
 sudo gpg --no-default-keyring --keyring /usr/share/keyrings/deadsnakes-archive-keyring.gpg --keyserver keyserver.ubuntu.com --recv-keys 6A755776
 sudo chmod 644 /usr/share/keyrings/deadsnakes-archive-keyring.gpg
+
+sudo gpg --no-default-keyring --keyring /usr/share/keyrings/deadsnakes-archive-keyring.gpg --keyserver keyserver.ubuntu.com --recv-keys 6A755776
+sudo chmod 644 /usr/share/keyrings/deadsnakes-archive-keyring.gpg
